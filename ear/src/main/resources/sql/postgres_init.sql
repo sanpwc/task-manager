@@ -1,4 +1,3 @@
-create role taskm with login password 'taskm123';
 create database taskmdb with owner taskm;
 
 create sequence USERS_SEQ start with 100 increment by 1;
